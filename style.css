@@ -1,0 +1,309 @@
+/* ========== General Styles ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ========== Header ========== */
+.main-header {
+  background-color: #fff;
+  padding: 1.2rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+nav a {
+  margin-left: 1.2rem;
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+nav a.btn {
+  background-color: #0077cc;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+/* ========== Hero Section ========== */
+.hero-section {
+  background-color: #eef6fb;
+  padding: 4rem 0;
+}
+
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text .btn {
+  background-color: #0077cc;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ========== Section Titles ========== */
+.section-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* ========== Features Section ========== */
+.features-section {
+  padding: 4rem 0;
+  background-color: #fff;
+}
+
+.features-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  flex: 1;
+  background-color: #f4faff;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.feature-card i {
+  margin-bottom: 1rem;
+  color: #0077cc;
+}
+
+/* ========== Courses Section ========== */
+.courses-section {
+  padding: 4rem 0;
+}
+
+.courses-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.course-card {
+  flex: 1;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+/* ========== Assessments Section ========== */
+.assessments-section {
+  background-color: #eef6fb;
+  padding: 4rem 0;
+}
+
+.assessment-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.assessment-image {
+  flex: 1;
+}
+
+.assessment-image img {
+  width: 100%;
+}
+
+.assessment-text {
+  flex: 1;
+}
+
+/* ========== Pricing Section ========== */
+.pricing-section {
+  padding: 4rem 0;
+  background-color: #fff;
+}
+
+.pricing-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f7f9fb;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.pricing-card.popular {
+  border: 2px solid #0077cc;
+}
+
+.price {
+  font-size: 1.8rem;
+  margin: 1rem 0;
+  color: #0077cc;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pricing-card ul li {
+  margin: 0.5rem 0;
+}
+
+/* ========== Testimonials Section ========== */
+.testimonials-section {
+  padding: 4rem 0;
+  background-color: #eef6fb;
+}
+
+.testimonials-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  flex: 1;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* ========== Call to Action Section ========== */
+.cta-section {
+  text-align: center;
+  padding: 4rem 0;
+  background-color: #0077cc;
+  color: white;
+}
+
+.cta-section .btn {
+  background-color: #fff;
+  color: #0077cc;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+/* ========== Footer ========== */
+.main-footer {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 3rem 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-content div {
+  flex: 1;
+  margin-bottom: 1.5rem;
+}
+
+.footer-content h4 {
+  margin-bottom: 1rem;
+}
+
+.footer-content a {
+  display: block;
+  color: #ddd;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+/* ========== Responsive Design ========== */
+@media (max-width: 768px) {
+  .hero-content,
+  .features-grid,
+  .courses-grid,
+  .pricing-grid,
+  .testimonials-grid,
+  .assessment-content,
+  .footer-content,
+  .nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav a {
+    margin: 0.5rem 0;
+  }
+
+  .hero-text {
+    padding-right: 0;
+  }
+}
